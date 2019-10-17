@@ -1,0 +1,88 @@
+@startuml
+
+actor "九条正宗/八敷一男" as yashiki
+actor "メリイ" as mery
+actor "九条サヤ" as saya
+actor "ムーラン・ロゼ" as rose
+actor "真下悟" as mashita
+
+skinparam BoxPadding 20
+
+box "九条館" #AntiqueWhite
+participant yashiki
+participant mery
+participant saya
+end box
+
+box "組織" #HoneyDew
+participant rose
+participant mashita
+end box
+
+== 九条正宗 幼少期==
+yashiki -> mery : 九条館の開かずの扉の先で発見
+...数十年後...
+
+== 前日譚==
+yashiki -> mery : メリイの存在を確信
+yashiki -> rose : メリイを救うため、\n人形技術の調査に赴く
+rose --> yashiki : 何も発見できず帰国
+
+saya -> rose : メリイについて相談
+rose -> saya : メリイとともに\nシルシの長の破壊を提案
+saya --> rose : 了承
+
+rose -> yashiki : メリイとともに\nシルシの長の破壊を提案
+yashiki --> rose : 拒否
+
+yashiki -> mery : 念持仏（シルシの長）を取り出す
+mery -> mery : 怪異化前に覚醒
+mery --> yashiki : シルシの長を肩代わり\n→浄化を試みる
+saya -> yashiki : メリイから念持仏を\n取り出したことを知る
+
+rose -> mery : 正宗に逆さ呪いをかけることを提案
+mery --> rose : 了承
+mery -> yashiki : 逆さ呪い（青いシルシ）を刻む
+
+saya -> rose : 他に手がないか\n模索するため、ロゼ帰国
+
+== 第一章==
+yashiki -> yashiki : シルシの長覚醒の兆し
+mery -> yashiki : 青いシルシの力で\n九条正宗の記憶を封印
+
+saya -> saya : 花彦くんの呪いで死亡
+yashiki -> saya : 九条館で死体発見
+yashiki -> mery : 九条館で対面
+mery -> yashiki : 一縷の望みをかけて\n怪異退治を提案
+yashiki -> mery : 承諾
+
+rose -> mashita : H小学校の怪異調査を指示
+yashiki <-> mashita : H小学校で遭遇
+
+mashita -> yashiki : 黄金銃発砲\n→高い霊格を確認\n→覚醒していないため様子見
+
+== 第二章==
+rose -> saya : 連絡がつかないことで異変を察知\n→来日
+mashita -> rose : 定時報告
+rose -> mashita : 撤退を提案
+mashita --> rose : 拒否
+
+mashita -> yashiki : 再度、黄金銃で霊格確認
+yashiki --> mashita : シルシの長の呪い発動
+mashita -> mashita : 死亡
+
+== 第三章==
+mery -> yashiki : シルシの長の覚醒が\n近いことを察知
+mery -> yashiki : 対観音兵に同行を申し出る
+yashiki --> mery : 拒否
+yashiki -> yashiki : シルシの長、覚醒
+
+== 第四章==
+yashiki -> mery : 契りを交わすために、\n念持仏の再埋め込みを試みる
+rose -> yashiki : 九条館で相対
+rose -> mery : 時間を稼ぎ、メリイをサポート
+mashita -> rose : 黄金銃の在り処を知らせる
+mery -> mery : シルシの長の破壊を決意
+mery -> yashiki : 自らの命をかけた青いシルシの力と、\n印人の怨念でシルシの長ごと破壊
+
+@enduml
