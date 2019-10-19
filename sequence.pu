@@ -1,7 +1,7 @@
 @startuml
 
 actor "九条正宗/八敷一男" as yashiki
-actor "メリイ" as mery
+actor "メリイ" as mary
 actor "九条サヤ" as saya
 actor "ムーラン・ロゼ" as rose
 actor "真下悟" as mashita
@@ -10,7 +10,7 @@ skinparam BoxPadding 20
 
 box "九条館" #AntiqueWhite
 participant yashiki
-participant mery
+participant mary
 participant saya
 end box
 
@@ -19,70 +19,110 @@ participant rose
 participant mashita
 end box
 
+== 室町時代～==
+
+[-> mary : 悪霊（シルシの長）封印の最初の生贄となる
+mary -> mary : 悪霊の封印が弱まる度に\n生贄が捧げられる
+mary -> mary : 九条家の手で作られた人形に、\nこれまでの生贄の魂を込めて、\n悪霊を封じる
+
+...500～600年経過...
+
 == 九条正宗 幼少期==
-yashiki -> mery : 九条館の開かずの扉の先で発見
+
+yashiki -> mary : 九条館の開かずの扉の先で発見
 ...数十年後...
 
 == 前日譚==
-yashiki -> mery : メリイの存在を確信
-yashiki -> rose : メリイを救うため、\n人形技術の調査に赴く
+
+yashiki -> mary : メリイの存在とその意味を知る
+saya -> rose : 人形工房へ正宗が行くことを連絡
+yashiki -> rose : 人形技術の調査に赴く
 rose --> yashiki : 何も発見できず帰国
 
-saya -> rose : メリイについて相談
-rose -> saya : メリイとともに\nシルシの長の破壊を提案
-saya --> rose : 了承
+rose -> yashiki : メリイとともに\n悪霊の破壊を提案
+yashiki --> rose: 承諾
 
-rose -> yashiki : メリイとともに\nシルシの長の破壊を提案
-yashiki --> rose : 拒否
+rose -> saya : メリイとともに\n悪霊の破壊を提案
+saya --> rose : 承諾
 
-yashiki -> mery : 念持仏（シルシの長）を取り出す
-mery -> mery : 怪異化前に覚醒
-mery --> yashiki : シルシの長を肩代わり\n→浄化を試みる
-saya -> yashiki : メリイから念持仏を\n取り出したことを知る
+mary -> yashiki : コンタクト
+yashiki --> mary : メリイと念持仏を発掘
+yashiki -> mary : ロゼとの約束を反故にし、\n念持仏を取り出す
+mary -> mary : 怪異化前に覚醒
+mary --> yashiki : 悪霊（シルシの長）の封印を肩代わり
+yashiki -> yashiki : メリイを犠牲にしない\n悪霊の浄化を試みる
 
-rose -> mery : 正宗に逆さ呪いをかけることを提案
-mery --> rose : 了承
-mery -> yashiki : 逆さ呪い（青いシルシ）を刻む
+saya -> yashiki : メリイから念持仏を取り出したことを知る\n→忠告
+yashiki --> saya : 忠告を無視
 
-saya -> rose : 他に手がないか\n模索するため、ロゼ帰国
+rose -> saya : メリイ破壊のため来日\n→念持仏が取り出されたことを知る
+rose -> mary : 正宗に逆さ呪いをかけることを提案
+mary --> rose : 承諾
+mary -> yashiki : 逆さ呪い（青いシルシ）を刻む
+
+saya -> rose : 他の手段を模索するため、\nロゼ、九条館を離れて帰国
+
+yashiki -> yashiki : マンホール通りで念持仏紛失
 
 == 第一章==
-yashiki -> yashiki : シルシの長覚醒の兆し
-mery -> yashiki : 青いシルシの力で\n九条正宗の記憶を封印
 
-saya -> saya : 花彦くんの呪いで死亡
+yashiki -> yashiki : シルシの長覚醒の兆し
+mary -> yashiki : 青いシルシの力で\n九条正宗の記憶を封印
+
+saya -> saya : 呪いにより死亡
 yashiki -> saya : 九条館で死体発見
-yashiki -> mery : 九条館で対面
-mery -> yashiki : 一縷の望みをかけて\n怪異退治を提案
-yashiki -> mery : 承諾
+yashiki <-> mary : 九条館で（八敷として）初対面
+mary -> yashiki : 怪異退治（浄化）を提案
+yashiki --> mary : 承諾
 
 rose -> mashita : H小学校の怪異調査を指示
 yashiki <-> mashita : H小学校で遭遇
+mashita -> yashiki : 花彦くん戦で、八敷に何かあることを察知
 
-mashita -> yashiki : 黄金銃発砲\n→高い霊格を確認\n→覚醒していないため様子見
+mashita -> yashiki : 黄金銃発砲\n→高い霊格を確認\n→覚醒が見られず様子見
 
 == 第二章==
-rose -> saya : 連絡がつかないことで異変を察知\n→来日
+
+rose -> saya : 連絡がつかないことで異変を察知\n→再来日
+
 mashita -> rose : 定時報告
 rose -> mashita : 撤退を提案
 mashita --> rose : 拒否
 
-mashita -> yashiki : 再度、黄金銃で霊格確認
-yashiki --> mashita : シルシの長の呪い発動
-mashita -> mashita : 死亡
+mashita -> yashiki : 再度、黄金銃発砲
+yashiki --> mashita : シルシの長の呪い発動→真下死亡
+
+yashiki <-> rose : 電話にて会話
+rose -> yashiki : 協力要請
+yashiki --> rose : 承諾
 
 == 第三章==
-mery -> yashiki : シルシの長の覚醒が\n近いことを察知
-mery -> yashiki : 対観音兵に同行を申し出る
-yashiki --> mery : 拒否
-yashiki -> yashiki : シルシの長、覚醒
+
+rose -> yashiki : くちゃら花嫁の資料提供
+
+mary -> yashiki : シルシの長の覚醒が\n近いことを察知
+mary -> yashiki : くちゃら花嫁の調査同行を申し出る
+yashiki --> mary : 承諾
+
+yashiki <-> mary : ドライブ中の会話
+
+mary -> yashiki : 観音兵の調査同行を申し出る
+yashiki --> mary : 拒否
+
+[-> yashiki : 念持仏が戻る
+yashiki -> yashiki : シルシの長、完全覚醒
 
 == 第四章==
-yashiki -> mery : 契りを交わすために、\n念持仏の再埋め込みを試みる
-rose -> yashiki : 九条館で相対
-rose -> mery : 時間を稼ぎ、メリイをサポート
+
+yashiki -> mary : 念持仏（穢れ）を埋め込むため\n九条館に帰還、対峙
+rose -> yashiki : 九条館到着、対峙
+yashiki -> rose : 力づくで伴侶（百鬼夜行）の一人にしようと試みる
+rose --> yashiki : 抵抗
 mashita -> rose : 黄金銃の在り処を知らせる
-mery -> mery : シルシの長の破壊を決意
-mery -> yashiki : 自らの命をかけた青いシルシの力と、\n印人の怨念でシルシの長ごと破壊
+rose -> rose : シルシの長の前で、\n黄金銃を使って自殺を自演
+mary -> mary : シルシの長の破壊を決意
+mary -> yashiki : 青いシルシの力、発動\n→メリイの魂、消滅
+rose -> yashiki : 青いシルシの意味を認識させる\n→呪い（言霊）の力、発動
+mary -> yashiki : 命をかけた青いシルシの力と、\nロゼのサポート、印人の怨念、\n八敷（正宗）の執念で、\nシルシの長ごと破壊
 
 @enduml
