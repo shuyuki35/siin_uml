@@ -81,9 +81,17 @@ mashita -> yashiki : 花彦くん戦で、八敷に何かあることを察知
 
 mashita -> yashiki : 黄金銃発砲\n→高い霊格を確認\n→覚醒が見られず様子見
 
+mashita -> rose : 九条サヤの死を報告
+rose -> saya : 再来日
+
 == 第二章==
 
-rose -> saya : 連絡がつかないことで異変を察知\n→再来日
+mashita -> yashiki : 森のシミ男の調査を提案
+yashiki --> mashita : 承諾
+yashiki <-> mashita : 森のシミ男を調査
+
+mary -> yashiki : くちゃら花嫁の調査を提案
+yashiki --> mary : 承諾
 
 mashita -> rose : 定時報告
 rose -> mashita : 撤退を提案
@@ -121,8 +129,8 @@ rose --> yashiki : 抵抗
 mashita -> rose : 黄金銃の在り処を知らせる
 rose -> rose : シルシの長の前で、\n黄金銃を使って自殺を自演
 mary -> mary : シルシの長の破壊を決意
-mary -> yashiki : 青いシルシの力、発動\n→メリイの魂、消滅
-rose -> yashiki : 青いシルシの意味を認識させる\n→呪い（言霊）の力、発動
+mary -> yashiki : 青いシルシの力を完全開放\n→メリイの魂、消滅
+rose -> yashiki : 青いシルシの意味を認識させる\n→呪い（言霊）の効力発動
 mary -> yashiki : 命をかけた青いシルシの力と、\nロゼのサポート、印人の怨念、\n八敷（正宗）の執念で、\nシルシの長ごと破壊
 
 @enduml
