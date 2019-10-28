@@ -10,6 +10,10 @@
 
 「ここは、こうではないか」という指摘、大歓迎。
 
+## 元ネタ
+
+[ボイスドラマ 死印 青き終焉|死印](http://shiin.jp/special/voice-drama-2nd.html)
+
 ## 制作環境
 
 - OS : Windows 10
