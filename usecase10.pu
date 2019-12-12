@@ -1,0 +1,26 @@
+@startuml
+
+left to right direction
+skinparam packageStyle rectangle
+
+usecase メリイ as Mary
+actor "メリイ\n(オリジナル)" as Mary_Origin
+actor 九条正宗 as Masamune
+actor 九条サヤ as Saya
+actor "ムーラン・ロゼ" as Rose
+usecase シルシの長 as Osa
+actor 八敷一男 as Yashiki
+
+Mary_Origin <|- Mary : 魂を人形に\n封じられる
+Mary -> Osa : 封印
+
+Saya --> Mary
+Rose --> Mary : シルシの長ごと\n破壊を計画
+
+Mary --> Masamune : 逆さ呪い\n(青いシルシ)を刻む
+Mary <-- Masamune : 念持仏を取り出し\n生贄の輪から解放
+
+Masamune <|- Yashiki
+Osa --> Yashiki : 転移
+
+@enduml
